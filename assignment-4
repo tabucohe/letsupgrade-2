@@ -1,0 +1,113 @@
+1 .  "FIND ALL OCCURRENCE OF SUBSTRING IN THE GIVEN STRING " . " WHAT WE  THINK WE BECOME ; WE ARE  PYTHON PROGRAMMER " .
+
+PROGRAM :
+
+Str = " what we think we become  ;  we are python programmer " .
+
+sub =input ("Enter the substring : ")
+
+if str.count (sub) ==0:
+
+print ("no substring")
+
+Else :
+
+print ("The sub string occured are :")
+
+for  i in range (len(str)-1):
+
+if (str[ i ]+str [ i +1 ])==sub:
+
+print ( i+1)
+
+i = i+1
+
+INPUT :
+
+Enter the substring : we
+
+OUTPUT :
+
+The sub string occurred are :
+
+6
+
+15
+
+26
+
+2. ISLOWER ( ) ;   
+
+Case 1; 
+
+INPUT :
+
+str1="Letsupgrade community"
+
+str1.islower ( )
+
+OUTPUT :
+
+False
+
+Case 2; 
+
+INPUT :
+
+str2="12345"
+
+str2.islower ( )
+
+OUTPUT :
+
+False
+
+Case 3 ; 
+
+INPUT :
+
+str3="assignment"
+
+str3.islower ( )
+
+OUTPUT :
+
+True
+
+ISUPPER ( );
+
+Case 1; 
+
+INPUT :
+
+str1="LETSUPGRADE COMMUNITY"
+
+str1.isupper( )
+
+OUTPUT :
+
+True
+
+Case 2; 
+
+INPUT :
+
+str2="LETSSTART123"
+
+str2.isupper ( )
+
+OUTPUT :
+
+False
+
+Case 3 ; 
+
+INPUT :
+
+str3= "ASSIGNMENT "
+
+str3.isupper ( )
+
+OUTPUT :
+
+True
